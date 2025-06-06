@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 
+html, body {
+  overflow: auto;
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer/Edge lama */
+}
 
+body::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari, Opera */
+}
 
 body {
   height: 100vh;
